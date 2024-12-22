@@ -31,8 +31,8 @@ StockSync is a React-based web application designed to help users manage and tra
 
 a. **Clone the Repository:**
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Zedoman/StockSync
+cd Client
 ```
 
 b. **Install Dependencies Run the following command to install all required dependencies:**
@@ -50,8 +50,8 @@ This will open the application in your default web browser at http://localhost:3
 2. **Backend:**
 a. **Clone the Repository:**
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone https://github.com/Zedoman/StockSync
+cd Server
 ```
 b. **Configure the Application Properties:**
 **Update src/main/resources/application.properties with your database and Finnhub API details:**
