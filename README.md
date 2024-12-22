@@ -48,6 +48,7 @@ This will open the application in your default web browser at http://localhost:3
 
 
 2. **Backend:**
+
 a. **Clone the Repository:**
 ```bash
 git clone https://github.com/Zedoman/StockSync
