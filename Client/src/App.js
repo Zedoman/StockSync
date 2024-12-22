@@ -6,7 +6,7 @@ import StockTable from "./components/StockTable";
 
 const App = () => {
   const [stocks, setStocks] = useState([]);
-  const apiUrl = "http://localhost:8080/api/stocks";
+  const apiUrl = "https://stocksync-t4dr.onrender.com/api/stocks";
 
   // Fetch all stocks on load
   useEffect(() => {

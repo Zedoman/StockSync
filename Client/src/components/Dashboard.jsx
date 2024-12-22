@@ -9,7 +9,7 @@ const Dashboard = ({ stocks }) => {
   useEffect(() => {
     const fetchPortfolioValue = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/api/stocks/portfolio-value");
+        const response = await axios.get("https://stocksync-t4dr.onrender.com/api/stocks/portfolio-value");
         setTotalValue(response.data);
         setLoading(false);
       } catch (err) {

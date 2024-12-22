@@ -104,6 +104,11 @@ Fetch Stock Price from Finnhub
 GET /api/stockPrice?ticker=AAPL
 ```
 
+f. **To build:**
+```bash
+./mvnw clean package
+```
+
 ### Assumptions and Limitations
 1. **Stock Quantity Assumption:**
 
@@ -123,6 +128,10 @@ a. **The application uses Hibernate's update strategy to manage schema changes, 
 
 ### Links
 
-**Deployed Application:**
+**Deployed Application (Backend):** 
+https://stocksync-t4dr.onrender.com
+
+**Deployed Application (Frontend):** 
+https://stock-sync-amber.vercel.app/
 
 
