@@ -13,7 +13,7 @@ const Dashboard = ({ stocks }) => {
         setTotalValue(response.data);
         setLoading(false);
       } catch (err) {
-        setError("Failed to fetch portfolio value");
+        setError("Unable to fetch portfolio value at this time. Please try again later.");
         setLoading(false);
       }
     };
@@ -40,7 +40,10 @@ const Dashboard = ({ stocks }) => {
           {loading ? (
             <p className="text-4xl font-bold animate-pulse">Loading...</p>
           ) : error ? (
-            <p className="text-4xl font-bold text-red-400">{error}</p>
+            <div className="text-center">
+              <p className="text-4xl font-bold text-red-400">Error</p>
+              <p className="text-lg text-gray-400 mt-2">{error}</p>
+            </div>
           ) : (
             <p className="text-4xl font-bold text-green-400">${totalValue.toFixed(2)}</p>
           )}

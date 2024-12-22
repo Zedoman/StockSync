@@ -75,7 +75,7 @@ import com.example.Backend.service.StockService;
 
 @RestController
 @RequestMapping("/api/stocks")
-@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:3000", "https://stock-sync-amber.vercel.app/"}, allowedHeaders = "*")
 public class StockController {
 
     @Autowired
