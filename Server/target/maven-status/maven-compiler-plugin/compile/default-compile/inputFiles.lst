@@ -1,0 +1,9 @@
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/BackendApplication.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/controller/FinnhubController.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/controller/StockController.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/corsconfig.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/exception/ResourceNotFoundException.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/model/Stock.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/repository/StockRepository.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/service/FinnhubService.java
+/Users/avradeepnayak/StockSync/Server/src/main/java/com/example/Backend/service/StockService.java
